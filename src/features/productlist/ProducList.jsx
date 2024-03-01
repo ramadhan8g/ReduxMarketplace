@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import { addItemToCart } from "../cart/cartSlice";
 import Rating from "../Rating";
 
@@ -33,6 +33,9 @@ const ProductList = () => {
 
   return (
     <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 py-4">
+
+      
+
       {products.map((product) => {
         return (
           <div
