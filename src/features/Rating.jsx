@@ -11,3 +11,13 @@ const Rating = ({ rating }) => {
 };
 
 export default Rating;
+
+
+
+// const Rating = () => {
+//   return (
+//     <div>Rating</div>
+//   )
+// }
+
+// export default Rating
